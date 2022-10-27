@@ -12,11 +12,12 @@ namespace house_of_the_dragon_api.Context
         public HouseOfTheDragonContext(DbContextOptions<HouseOfTheDragonContext> options) : base(options)
         {
         }
+
         public DbSet<Character> Characters { get; set; }
         public DbSet<Dragon> Dragons { get; set; }
         public DbSet<House> Houses { get; set; }
         public DbSet<Book> Books { get; set; }
-        public DbSet<BookCharacter> BooksCaracters { get; set; }
+        public DbSet<BookCharacter> BooksCharacters { get; set; }
 
     }
 }

@@ -60,7 +60,7 @@ namespace house_of_the_dragon_api.Migrations
 
                     b.HasIndex("CharacterIdCharacter");
 
-                    b.ToTable("BooksCaracters");
+                    b.ToTable("BooksCharacters");
                 });
 
             modelBuilder.Entity("house_of_the_dragon_api.models.Character", b =>
